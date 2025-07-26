@@ -25,4 +25,22 @@
     margin: 20px;
 }
 
+.btnContainer > button{
+    height: 45px;
+    width: 130px;
+    margin: 0px 5px;
+    border: transparent;
+    font-weight: 600;
+}
 
+.restBtn{
+    background-color: palevioletred;
+}
+
+.btnContainer > button:hover{
+    cursor: pointer;
+}
+
+.restBtn:hover{
+    background-color: rgb(176, 44, 88);
+}
